@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 60px 120px;
+
+  #navbar{
+    margin: auto;
+    margin-bottom: 150px;
+    width: 40%;
+  }
+}
