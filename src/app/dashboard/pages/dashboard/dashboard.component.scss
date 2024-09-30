@@ -1,11 +1,21 @@
 .container{
   display: flex;
   flex-direction: column;
-  padding: 60px 120px;
+  justify-content: center;
+  padding: 60px 300px;
 
-  #navbar{
-    margin: auto;
+  #navbar-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-bottom: 150px;
-    width: 40%;
+  }
+
+  #about-me-container{
+    margin-bottom: 120px;
+  }
+
+  #work-experience-container{
+    margin-bottom: 120px;
   }
 }

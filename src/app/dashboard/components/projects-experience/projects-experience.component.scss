@@ -1,0 +1,46 @@
+.container{
+  #title{
+    font-size: 30px;
+    margin-bottom: 60px;
+  }
+
+  #img-container{
+    display: flex;
+    justify-content: center;
+    img{
+      border-radius: 20px;
+      width: 334px;
+    }
+  }
+
+  #project-description{
+    #project-title{
+      font-size: 30px;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    #languages{
+      display: flex;
+      justify-content: start;
+      margin-bottom: 15px;
+
+      div{
+        margin-right: 15px;
+      }
+    }
+
+    #description{
+      margin-bottom: 30px;
+    }
+
+    #code{
+      img{
+        width: 15px;
+      }
+      div:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}

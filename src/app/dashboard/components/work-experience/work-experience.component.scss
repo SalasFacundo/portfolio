@@ -1,0 +1,52 @@
+.container{
+
+  #title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 60px;
+
+    img{
+      width: 60px;
+      margin-right: 30px;
+    }
+
+    span{
+      display: flex;
+      align-items: center;
+      font-size: 40px;
+    }
+  }
+
+  #timeline{
+    padding: 0 300px;
+    #work-info{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0 60px 30px;
+
+      #work-title{
+        color: #FACC15;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+      }
+      #work-company{
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+      }
+      #point{
+        position: absolute;
+        left: -5px;
+        background-color: #FACC15;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+      border-left: 1px solid black;
+    }
+    #work-description{ padding-left: 60px;}
+  }
+}
