@@ -1,0 +1,57 @@
+.container #title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.container #title img {
+  width: 40px;
+  margin-right: 5px;
+}
+.container #title span {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.container #timeline {
+  padding: 0 150px;
+}
+.container #timeline #work-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 60px 30px;
+  border-left: 1px solid black;
+}
+.container #timeline #work-info #work-title {
+  color: #FACC15;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.container #timeline #work-info #work-company {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.container #timeline #work-info #point {
+  position: absolute;
+  left: -5px;
+  background-color: #FACC15;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.container #timeline #work-description {
+  padding-left: 60px;
+}
+
+@media (max-width: 767.98px) {
+  #work-description {
+    border-left: 1px solid black;
+    padding-left: 30px !important;
+  }
+  #timeline {
+    padding: 0px !important;
+  }
+}/*# sourceMappingURL=work-experience.component.css.map */

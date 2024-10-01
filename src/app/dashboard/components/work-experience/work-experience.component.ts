@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FlexLayoutModule } from '@angular/flex-layout';
 
 @Component({
   selector: 'work-experience',

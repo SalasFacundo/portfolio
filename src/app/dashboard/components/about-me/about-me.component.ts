@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { FlexLayoutModule } from '@angular/flex-layout';
 @Component({
   selector: 'about-me',
   standalone: true,
-  imports: [FlexLayoutModule],
+  imports: [],
   templateUrl: './about-me.component.html',
   styleUrl: './about-me.component.scss'
 })

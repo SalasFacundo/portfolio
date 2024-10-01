@@ -1,0 +1,40 @@
+.container #title {
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+.container #img-container {
+  display: flex;
+  justify-content: center;
+}
+.container #img-container img {
+  border-radius: 20px;
+  width: 334px;
+}
+.container #project-description #project-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.container #project-description #languages {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 15px;
+}
+.container #project-description #languages div {
+  margin-right: 15px;
+}
+.container #project-description #description {
+  margin-bottom: 30px;
+}
+.container #project-description #code img {
+  width: 15px;
+}
+.container #project-description #code div:first-child {
+  margin-right: 20px;
+}
+
+@media (max-width: 767.98px) {
+  #img-container {
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=projects-experience.component.css.map */

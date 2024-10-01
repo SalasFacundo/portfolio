@@ -16,6 +16,8 @@
     }
   }
   #description-container{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 30px;
     min-width: 290px;
     #name{
@@ -44,6 +46,7 @@
       margin-right: 10px;
       padding: 10px 20px;
       border-radius: 50px;
+      width: auto;
 
       img{
         width: 30px;
