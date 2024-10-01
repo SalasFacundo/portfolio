@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Mecanogame - Aprende jugando",
+      "languages": ["Angular", "Typescript", "Bootstrap"],
+      "description": "Juego de ortografía donde los usuarios deben escribir correctamente las palabras que se les presentan para avanzar.",
+      "urlPreview": "https://mecanogame.web.app/",
+      "urlCode": "https://github.com/SalasFacundo/mecanoGame",
+      "urlImg": "assets/img/mecanogame.png"
+    },
+    {
+      "title": "Split Fair - Divide tus gastos",
+      "languages": ["Angular", "Typescript", "Bootstrap"],
+      "description": "Esta app te ayuda a repartir gastos equitativamente entre amigos. Ya no más líos ni confusiones al calcular quién debe cuánto. ¡Solo ingresa los montos y la app hace el resto!",
+      "urlPreview": "https://splitfair-ba80b.web.app/",
+      "urlCode": "https://github.com/SalasFacundo/splitFair",
+      "urlImg": "assets/img/splitfair.png"
+    },
+    {
+      "title": "Finanzen - Controla tus balance mensual",
+      "languages": ["Angular", "Typescript", "Bootstrap"],
+      "description": "Aplicación para organizar y gestionar los gastos mensuales. Permite categorizar y visualizar los gastos, obtener porcentajes de distribución, y llevar un control detallado de cuotas y pagos recurrentes. Ofrece gráficos interactivos para un análisis claro del presupuesto.",
+      "urlPreview": "",
+      "urlCode": "",
+      "urlImg": "assets/img/finanzen.png"
+    }
+  ]
+}

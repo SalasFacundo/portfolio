@@ -9,7 +9,6 @@ import { CommonModule } from '@angular/common';
   imports: [HttpClientModule, CommonModule],
   templateUrl: './work-experience.component.html',
   styleUrl: './work-experience.component.scss',
-  providers:[HttpClient]
 })
 export class WorkExperienceComponent implements OnInit {
 

@@ -1,22 +1,20 @@
 <div class="container">
   <div id="title">&lt;/&gt; Proyectos</div>
-  <div class="row">
+  <div class="row" id="project-container" *ngFor="let project of projects">
     <div class="col-12 col-md-6" id="img-container">
-      <img src="assets/img/mecanogame.png" alt="">
+      <img [src]="project.urlImg">
     </div>
     <div class="col-12 col-md-6" id="project-description">
-      <div id="project-title">Mecanogame - Aprende jugando</div>
+      <div id="project-title">{{project.title}}</div>
       <div id="languages">
-        <div>Angular</div>
-        <div>Angular</div>
-        <div>Angular</div>
+        <span *ngFor="let language of project.languages" [ngClass]="language.toLowerCase()" class="pill">{{ language }}</span>
       </div>
-      <div id="description">Juego de ortografía donde los usuarios deben escribir correctamente las palabras que se les presentan para avanzar. </div>
-      <div id="code" fxLayout="row">
-        <div>
+      <div id="description">{{project.description}}</div>
+      <div id="code">
+        <div class="pill" (click)="openUrl(project.urlCode)">
           <img src="assets/img/github.png" alt=""> Code
         </div>
-        <div>
+        <div class="pill" (click)="openUrl(project.urlPreview)">
           <img src="assets/img/eye.png" alt=""> Preview
         </div>
       </div>

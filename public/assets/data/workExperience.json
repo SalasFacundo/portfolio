@@ -8,11 +8,11 @@
       "description": "Desarrollo frontend con Angular, enfocado en la creación de componentes reutilizables, responsable de migración de versiones, y optimización y seguridad de la aplicación del lado del cliente, brindando mis servicios a una entidad bancaria."
     },
     {
-      "company": "IT Resources",
-      "role": "Angular Developer",
-      "startDate": "Ago / 2023",
-      "endDate": "Actualmente",
-      "description": "Desarrollo frontend con Angular, enfocado en la creación de componentes reutilizables, responsable de migración de versiones, y optimización y seguridad de la aplicación del lado del cliente, brindando mis servicios a una entidad bancaria."
+      "company": "Accenture",
+      "role": "Angular / Java Developer",
+      "startDate": "Feb/2021",
+      "endDate": "Ago/2023",
+      "description": "Desarrollé full stack (Angular/Java) para un cliente bancario, donde fui responsable de resolver bugs, implementar mejoras, y llevar a cabo desarrollos desde cero. En el backend, trabajé con Springboot para gestionar bases de datos y crear endpoints. En el frontend, diseñé e implementé interfaces intuitivas, desarrollé componentes altamente reutilizables, optimicé el rendimiento de la aplicación y aseguré una experiencia de usuario fluida y responsive. Además, configuré rutas, servicios y directivas personalizadas para mejorar la interacción y seguridad de la aplicación. "
     }
   ]
 }

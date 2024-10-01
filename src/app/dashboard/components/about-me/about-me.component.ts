@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AboutMeComponent {
 
+  sendEmail(){
+    window.location.href = "mailto:salasfacundo96@gmail.com";
+  }
+  openLinkedin(){
+    window.open('https://www.linkedin.com/in/salasfacundo/', '_blank');
+
+  }
+
 }
