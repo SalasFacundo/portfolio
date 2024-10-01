@@ -29,9 +29,6 @@
       margin-left: 10px;
       width: 30px;
     }
-    #location{
-      display: flex;
-    }
     #about_me{
       width: 50%;
     }
@@ -55,4 +52,39 @@
     }
   }
 
+}
+
+@media (max-width: 767.98px) {
+  #img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .contact-pill{
+    margin-bottom: 15px;
+  }
+
+  #contact-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  #description-container{
+
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+
+  }
+
+  #name, #about_me, #location{
+    text-align: center;
+    width: 100% !important;
+  }
+
+  #status-container{
+    display: flex;
+    justify-content: center;
+  }
 }
