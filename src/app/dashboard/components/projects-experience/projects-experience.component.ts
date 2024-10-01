@@ -5,7 +5,7 @@ import {MatIconModule} from '@angular/material/icon';
 @Component({
   selector: 'projects-experience',
   standalone: true,
-  imports: [FlexLayoutModule, MatIconModule],
+  imports: [MatIconModule],
   templateUrl: './projects-experience.component.html',
   styleUrl: './projects-experience.component.scss'
 })
