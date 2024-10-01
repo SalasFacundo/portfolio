@@ -4,7 +4,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 @Component({
   selector: 'work-experience',
   standalone: true,
-  imports: [FlexLayoutModule],
+  imports: [],
   templateUrl: './work-experience.component.html',
   styleUrl: './work-experience.component.scss'
 })

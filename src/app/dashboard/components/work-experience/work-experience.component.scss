@@ -1,43 +1,44 @@
-.container{
-
-  #title{
+.container {
+  #title {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 60px;
 
-    img{
+    img {
       width: 60px;
       margin-right: 30px;
     }
 
-    span{
+    span {
       display: flex;
       align-items: center;
       font-size: 40px;
     }
   }
 
-  #timeline{
-    padding: 0 300px;
-    #work-info{
+  #timeline {
+
+    padding: 0 150px;
+
+    #work-info {
       position: relative;
       display: flex;
       flex-direction: column;
       padding: 10px 0 60px 30px;
 
-      #work-title{
+      #work-title {
         color: #FACC15;
         font-weight: bold;
         display: flex;
         align-items: center;
       }
-      #work-company{
+      #work-company {
         font-weight: bold;
         display: flex;
         align-items: center;
       }
-      #point{
+      #point {
         position: absolute;
         left: -5px;
         background-color: #FACC15;
@@ -47,6 +48,20 @@
       }
       border-left: 1px solid black;
     }
-    #work-description{ padding-left: 60px;}
+
+    #work-description {
+      padding-left: 60px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  #work-description {
+    border-left: 1px solid black;
+    padding-left: 5px !important;
+  }
+
+  #timeline {
+    padding: 0px !important;
   }
 }

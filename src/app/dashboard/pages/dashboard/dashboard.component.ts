@@ -3,11 +3,12 @@ import { NavbarComponent } from '../../components/navbar/navbar.component';
 import { AboutMeComponent } from '../../components/about-me/about-me.component';
 import { WorkExperienceComponent } from '../../components/work-experience/work-experience.component';
 import { ProjectsExperienceComponent } from '../../components/projects-experience/projects-experience.component';
+import { WhoAmIComponent } from '../../components/who-am-i/who-am-i.component';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [NavbarComponent, AboutMeComponent, WorkExperienceComponent, ProjectsExperienceComponent],
+  imports: [NavbarComponent, AboutMeComponent, WorkExperienceComponent, ProjectsExperienceComponent, WhoAmIComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.scss'
 })
