@@ -4,14 +4,14 @@
     <div><span>Experiencia laboral</span></div>
   </div>
   <div id="timeline">
-    <div class="row">
+    <div class="row" *ngFor="let work of works">
       <div class="col-12 col-md-4" id="work-info">
-        <div id="work-title"><div id="point"></div><span>Angular developer</span></div>
-        <div id="work-company">IT RESOURCES</div>
-        <div id="work-date">Ago/2023 - Actualmente</div>
+        <div id="work-title"><div id="point"></div><span>{{work.role}}</span></div>
+        <div id="work-company">{{work.company}}</div>
+        <div id="work-date">{{work.startDate}} - {{work.endDate}}</div>
       </div>
       <div class="col-12 col-md-6" id="work-description">
-        Desarrollo frontend con Angular, enfocado en la creación de componentes reutilizables, responsable de migración de versiones, y optimización y seguridad de la aplicación del lado del cliente, brindando mis servicios a una entidad bancaria.
+        {{work.description}}
       </div>
     </div>
   </div>
