@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'navbar',
@@ -9,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  @Output() scrollToSection = new EventEmitter<string>();
+
+  goToSection(section: string) {
+    this.scrollToSection.emit(section);
+  }
 }

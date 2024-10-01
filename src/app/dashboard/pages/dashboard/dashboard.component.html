@@ -1,17 +1,17 @@
 <div class="container">
   <div id="navbar-container">
-    <navbar id="navbar"></navbar>
+    <navbar id="navbar" (scrollToSection)="scrollToSection($event)"></navbar>
   </div>
-  <div id="about-me-container">
+  <div id="about-me-container" #start>
     <about-me></about-me>
   </div>
-  <div id="work-experience-container">
+  <div id="work-experience-container" #workExperience>
     <work-experience></work-experience>
   </div>
-  <div id="projects-experience-container">
+  <div id="projects-experience-container" #projectsExperience>
     <projects-experience></projects-experience>
   </div>
-  <div id="who-am-i-container">
+  <div id="who-am-i-container" #aboutMe>
     <who-am-i></who-am-i>
   </div>
 </div>
