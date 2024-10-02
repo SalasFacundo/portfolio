@@ -1,29 +1,35 @@
-.container{
+.page-container{
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  max-width: 1000px;
-
-  #navbar-container{
+  .page{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
-    margin-bottom: 150px;
+    margin: 0 300px;
+
+    #navbar-container{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 150px;
+    }
+
+    #about-me-container{
+      margin-bottom: 120px;
+    }
+
+    #work-experience-container{
+      margin-bottom: 120px;
+    }
+
+    #projects-experience-container{
+      margin-bottom: 120px;
+    }
+
+    #work-experience-container{
+      margin-bottom: 120px;
+    }
   }
 
-  #about-me-container{
-    margin-bottom: 120px;
-  }
-
-  #work-experience-container{
-    margin-bottom: 120px;
-  }
-
-  #projects-experience-container{
-    margin-bottom: 120px;
-  }
-
-  #work-experience-container{
-    margin-bottom: 120px;
-  }
 }

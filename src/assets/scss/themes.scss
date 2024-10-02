@@ -1,0 +1,88 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+$light-primary: mat.m2-define-palette(mat.$m2-indigo-palette, A400, A100, A700);
+$light-accent: mat.m2-define-palette(mat.$m2-pink-palette);
+$light-warn: mat.m2-define-palette(mat.$m2-red-palette);
+
+$light-theme: mat.m2-define-light-theme((
+  color: (
+    primary: $light-primary,
+    accent: $light-accent,
+    warn: $light-warn,
+  ),
+));
+
+$dark-primary: mat.m2-define-palette(mat.$m2-blue-grey-palette);
+$dark-accent: mat.m2-define-palette(mat.$m2-deep-orange-palette);
+$dark-warn: mat.m2-define-palette(mat.$m2-red-palette);
+
+$dark-theme: mat.m2-define-dark-theme((
+  color: (
+    primary: $dark-primary,
+    accent: $dark-accent,
+    warn: $dark-warn,
+  ),
+));
+
+
+.light-theme {
+  @include mat.all-component-themes($light-theme);
+
+  background-color: #ffffff;
+  color: #000000;
+  #navbar{
+    background-color: rgba(204, 196, 196, 0.5);
+  }
+  #status{
+    background-color: #dcfce7;
+    border: 1px solid rgb(11, 182, 11);
+  }
+  .contact-pill{
+    background-color: #e0e7e9;
+    border: 1px solid grey;
+  }
+  #work-info{border-left: 1px solid black;}
+  #work-descrpition{border-left: 1px solid black;}
+
+  @media (max-width: 767.98px) {
+    #work-description {
+      border-left: 1px solid black;
+    }
+  }
+
+  .pill{background-color: rgb(228, 224, 224);}
+}
+
+.dark-theme {
+  @include mat.all-component-themes($dark-theme);
+
+  background-color: #212121;
+  color: #ffffff;
+  #navbar{
+    background-color: rgb(30, 39, 54, 0.5)
+  }
+
+  #status{
+    background-color: #1e2736;
+    border: 1px solid #FACC15;
+  }
+
+  .contact-pill{
+    background-color: #1e2736;
+    border: 1px solid grey;
+
+    img{filter: invert(100%);}
+  }
+
+  #work-info{border-left: 1px solid white;}
+  #work-descrpition{border-left: 1px solid white;}
+
+  @media (max-width: 767.98px) {
+    #work-description {
+      border-left: 1px solid white;
+    }
+  }
+
+  .pill{background-color: #1e2736;img{filter: invert(100%);}}
+}

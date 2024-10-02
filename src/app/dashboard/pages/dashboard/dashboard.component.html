@@ -1,17 +1,20 @@
-<div class="container">
-  <div id="navbar-container">
-    <navbar id="navbar" (scrollToSection)="scrollToSection($event)"></navbar>
+<div class="page-container" [ngClass]="darkMode ? 'dark-theme' : 'light-theme'"  #start>
+  <div class="page" >
+    <div id="navbar-container">
+      <navbar id="navbar" (scrollToSection)="scrollToSection($event)" (darkMode)="darkModeToogle($event)"></navbar>
+    </div>
+    <div id="about-me-container">
+      <about-me></about-me>
+    </div>
+    <div id="work-experience-container" #workExperience>
+      <work-experience></work-experience>
+    </div>
+    <div id="projects-experience-container" #projectsExperience>
+      <projects-experience></projects-experience>
+    </div>
+    <div id="who-am-i-container" #aboutMe>
+      <who-am-i></who-am-i>
+    </div>
   </div>
-  <div id="about-me-container" #start>
-    <about-me></about-me>
-  </div>
-  <div id="work-experience-container" #workExperience>
-    <work-experience></work-experience>
-  </div>
-  <div id="projects-experience-container" #projectsExperience>
-    <projects-experience></projects-experience>
-  </div>
-  <div id="who-am-i-container" #aboutMe>
-    <who-am-i></who-am-i>
-  </div>
+
 </div>

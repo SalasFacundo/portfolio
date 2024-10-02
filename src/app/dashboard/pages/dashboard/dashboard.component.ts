@@ -4,11 +4,12 @@ import { AboutMeComponent } from '../../components/about-me/about-me.component';
 import { WorkExperienceComponent } from '../../components/work-experience/work-experience.component';
 import { ProjectsExperienceComponent } from '../../components/projects-experience/projects-experience.component';
 import { WhoAmIComponent } from '../../components/who-am-i/who-am-i.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [NavbarComponent, AboutMeComponent, WorkExperienceComponent, ProjectsExperienceComponent, WhoAmIComponent],
+  imports: [NavbarComponent, AboutMeComponent, WorkExperienceComponent, ProjectsExperienceComponent, WhoAmIComponent, CommonModule],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.scss'
 })
@@ -20,6 +21,7 @@ export class DashboardComponent {
   @ViewChild('aboutMe') about!: ElementRef;
 
   sectionMap: { [key: string]: ElementRef } = {};
+  darkMode: boolean = false;
 
   ngAfterViewInit() {
     this.sectionMap = {
@@ -34,5 +36,10 @@ export class DashboardComponent {
     if (element) {
       element.nativeElement.scrollIntoView({ behavior: 'smooth' });
     }
+  }
+
+  darkModeToogle(event: boolean){
+    console.log(event)
+    this.darkMode = event;
   }
 }
