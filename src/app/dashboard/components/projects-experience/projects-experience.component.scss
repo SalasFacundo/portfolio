@@ -5,17 +5,30 @@
   }
   #project-container{
     margin-bottom: 60px;
+    min-width:750px;
 
     #img-container{
       display: flex;
       justify-content: center;
+      min-width: 364px;
       img{
         border-radius: 20px;
-        width: 100%;
+        width: 364px;
+        border: 1px solid black;
       }
     }
 
     #project-description{
+
+      .pill{
+        cursor: pointer;
+        border: 2px solid grey;
+        margin-right: 15px;
+        border-radius: 30px;
+        padding: 5px 10px;
+        font-weight: 500;
+      }
+
       #project-title{
         font-size: 30px;
         margin-bottom: 15px;
@@ -55,20 +68,19 @@
     }
   }
 
-  .pill{
-    cursor: pointer;
-          border: 2px solid grey;
-          margin-right: 15px;
-          border-radius: 30px;
-          padding: 5px 10px;
-          font-weight: 500;
-        }
 }
 
-
-
 @media (max-width: 767.98px) {
-  #img-container {
-    margin-bottom: 30px;
+  #project-container{
+    min-width: 0 !important;
+    #img-container {
+      margin-bottom: 30px;
+      min-width: 0 !important;
+      width: 100% !important;
+      img{
+        border-radius: 20px;
+        width: 100% !important;
+      }
+    }
   }
 }

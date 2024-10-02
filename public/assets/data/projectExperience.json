@@ -23,6 +23,14 @@
       "urlPreview": "",
       "urlCode": "",
       "urlImg": "assets/img/finanzen.png"
+    },
+    {
+      "title": "Portfolio - ¿Quien soy?",
+      "languages": ["Angular", "Typescript", "Bootstrap"],
+      "description": "Hice mi portfolio para mostrar mis habilidades en desarrollo front-end con Angular, resaltar mis proyectos y experiencias laborales, y para que me conozcan un poco más.",
+      "urlPreview": "https://portfolio-8bea9.web.app/",
+      "urlCode": "https://github.com/SalasFacundo/portfolio",
+      "urlImg": "assets/img/portfolio.png"
     }
   ]
 }
