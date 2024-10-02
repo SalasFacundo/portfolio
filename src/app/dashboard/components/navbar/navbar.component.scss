@@ -12,8 +12,13 @@
   margin-top: 15px;
   z-index: 100;
   span{
+    display: flex;
+    justify-content: center;
     margin-right: 10px;
     cursor: pointer;
+  }
+  span:last-child{
+    margin-right: 0;
   }
 }
 
