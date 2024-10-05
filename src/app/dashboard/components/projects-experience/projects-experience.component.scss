@@ -40,10 +40,12 @@
         display: flex;
         justify-content: start;
         margin-bottom: 15px;
+        color: white;
 
-        .angular{background-color: #c3002f; color: white;}
-        .bootstrap{background-color: #c38ee1; color: white;}
-        .typescript{background-color: #93cff4; color: white;}
+        .angular{background-color: #c3002f;}
+        .bootstrap{background-color: #c38ee1;}
+        .typescript{background-color: #93cff4;}
+        .javascript{background-color: rgb(248, 172, 31);}
 
         div{
           margin-right: 15px;

@@ -25,6 +25,22 @@
       "urlImg": "assets/img/finanzen.png"
     },
     {
+      "title": "Ta te ti - ¡A jugar!",
+      "languages": ["Angular", "Typescript", "Bootstrap"],
+      "description": "Pequeño homenaje al juego que todos hemos jugado alguna vez",
+      "urlPreview": "https://tateti-6e503.web.app/",
+      "urlCode": "https://github.com/SalasFacundo/ta_te_ti",
+      "urlImg": "assets/img/tateti.png"
+    },
+    {
+      "title": "Cinema - Proyecto final Javascript",
+      "languages": ["Javascript", "Bootstrap"],
+      "description": "Proyecto final para curso de coderhouse, resuelto en Javascript Vanilla",
+      "urlPreview": "https://salasfacundo.github.io/cinema/",
+      "urlCode": "https://github.com/SalasFacundo/cinema",
+      "urlImg": "assets/img/cinema.png"
+    },
+    {
       "title": "Portfolio - ¿Quien soy?",
       "languages": ["Angular", "Typescript", "Bootstrap"],
       "description": "Hice mi portfolio para mostrar mis habilidades en desarrollo front-end con Angular, resaltar mis proyectos y experiencias laborales, y para que me conozcan un poco más.",
