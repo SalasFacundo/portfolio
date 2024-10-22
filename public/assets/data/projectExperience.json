@@ -1,12 +1,12 @@
 {
   "projects": [
     {
-      "title": "Mecanogame - Aprende jugando",
+      "title": "Todo list - Controla tus tareas diarias",
       "languages": ["Angular", "Typescript", "Bootstrap"],
-      "description": "Juego de ortografía donde los usuarios deben escribir correctamente las palabras que se les presentan para avanzar.",
-      "urlPreview": "https://mecanogame.web.app/",
-      "urlCode": "https://github.com/SalasFacundo/mecanoGame",
-      "urlImg": "assets/img/mecanogame.png"
+      "description": "Aplicación para organizar y gestionar el dia. Permite filtrar, eliminar y reorganizar las tareas diarias.",
+      "urlPreview": "https://todolist-6f7b8.web.app/",
+      "urlCode": "https://github.com/SalasFacundo/todoList",
+      "urlImg": "assets/img/todoList.png"
     },
     {
       "title": "Split Fair - Divide tus gastos",
@@ -17,20 +17,20 @@
       "urlImg": "assets/img/splitfair.png"
     },
     {
-      "title": "Finanzen - Controla tus balance mensual",
-      "languages": ["Angular", "Typescript", "Bootstrap"],
-      "description": "Aplicación para organizar y gestionar los gastos mensuales. Permite categorizar y visualizar los gastos, obtener porcentajes de distribución, y llevar un control detallado de cuotas y pagos recurrentes. Ofrece gráficos interactivos para un análisis claro del presupuesto.",
-      "urlPreview": "",
-      "urlCode": "",
-      "urlImg": "assets/img/finanzen.png"
-    },
-    {
       "title": "Ta te ti - ¡A jugar!",
       "languages": ["Angular", "Typescript", "Bootstrap"],
       "description": "Pequeño homenaje al juego que todos hemos jugado alguna vez",
       "urlPreview": "https://tateti-6e503.web.app/",
       "urlCode": "https://github.com/SalasFacundo/ta_te_ti",
       "urlImg": "assets/img/tateti.png"
+    },
+    {
+      "title": "Mecanogame - Aprende jugando",
+      "languages": ["Angular", "Typescript", "Bootstrap"],
+      "description": "Juego de ortografía donde los usuarios deben escribir correctamente las palabras que se les presentan para avanzar.",
+      "urlPreview": "https://mecanogame.web.app/",
+      "urlCode": "https://github.com/SalasFacundo/mecanoGame",
+      "urlImg": "assets/img/mecanogame.png"
     },
     {
       "title": "Cinema - Proyecto final Javascript",
